@@ -5,6 +5,8 @@
     <classes>
       <class name="Login.Login">
         <methods>
+          <include name="stopAppium"/>
+          <include name="startAppium"/>
           <include name="login"/>
           <include name="tearDown"/>
           <include name="setup"/>

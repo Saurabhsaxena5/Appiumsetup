@@ -1,24 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-15T17:55:44 IST" name="Default suite" finished-at="2026-01-15T17:56:25 IST" duration-ms="41441">
+  <suite started-at="2026-01-15T18:45:50 IST" name="Default suite" finished-at="2026-01-15T18:47:27 IST" duration-ms="97116">
     <groups>
     </groups>
-    <test started-at="2026-01-15T17:55:44 IST" name="Default test" finished-at="2026-01-15T17:56:25 IST" duration-ms="41441">
+    <test started-at="2026-01-15T18:45:50 IST" name="Default test" finished-at="2026-01-15T18:47:27 IST" duration-ms="97116">
       <class name="Login.Login">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Login.Login@4802796d]" started-at="2026-01-15T17:55:44 IST" name="setup" finished-at="2026-01-15T17:56:06 IST" duration-ms="22209" status="PASS">
+        <test-method is-config="true" signature="startAppium()[pri:0, instance:Login.Login@6a78afa0]" started-at="2026-01-15T18:45:45 IST" name="startAppium" finished-at="2026-01-15T18:45:50 IST" duration-ms="4657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startAppium -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.Login@6a78afa0]" started-at="2026-01-15T18:45:50 IST" name="setup" finished-at="2026-01-15T18:46:18 IST" duration-ms="27680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ValidatewrongNumber()[pri:0, instance:Login.Login@4802796d]" started-at="2026-01-15T17:56:06 IST" name="ValidatewrongNumber" finished-at="2026-01-15T17:56:24 IST" duration-ms="17358" status="PASS">
+        <test-method signature="ValidatewrongNumber()[pri:0, instance:Login.Login@6a78afa0]" started-at="2026-01-15T18:46:18 IST" name="ValidatewrongNumber" finished-at="2026-01-15T18:46:35 IST" duration-ms="17771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidatewrongNumber -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Login.Login@4802796d]" started-at="2026-01-15T17:56:24 IST" name="tearDown" finished-at="2026-01-15T17:56:25 IST" duration-ms="1817" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Login.Login@6a78afa0]" started-at="2026-01-15T18:46:35 IST" name="tearDown" finished-at="2026-01-15T18:46:37 IST" duration-ms="2102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.Login@6a78afa0]" started-at="2026-01-15T18:46:37 IST" name="setup" finished-at="2026-01-15T18:47:00 IST" duration-ms="22167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:Login.Login@6a78afa0]" started-at="2026-01-15T18:47:00 IST" name="login" finished-at="2026-01-15T18:47:25 IST" duration-ms="25529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Login.Login@6a78afa0]" started-at="2026-01-15T18:47:25 IST" name="tearDown" finished-at="2026-01-15T18:47:27 IST" duration-ms="1812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="stopAppium()[pri:0, instance:Login.Login@6a78afa0]" started-at="2026-01-15T18:47:27 IST" name="stopAppium" finished-at="2026-01-15T18:47:27 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAppium -->
       </class> <!-- Login.Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
